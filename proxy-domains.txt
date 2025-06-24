@@ -1,6 +1,8 @@
 # YouTube
 DOMAIN-KEYWORD,youtube,PROXY
 DOMAIN-KEYWORD,googlevideo,PROXY
+DOMAIN-SUFFIX,ytimg.com,PROXY
+DOMAIN-SUFFIX,googleapis.com,PROXY
 
 # Instagram
 DOMAIN-KEYWORD,instagram,PROXY
