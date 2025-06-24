@@ -1,12 +1,3 @@
 # YouTube
-DOMAIN-KEYWORD,youtube,PROXY
-DOMAIN-SUFFIX,googlevideo,PROXY
-DOMAIN-SUFFIX,ytimg.com,PROXY
-DOMAIN-SUFFIX,googleapis.com,PROXY
-
-# Instagram
-DOMAIN-KEYWORD,instagram,PROXY
-DOMAIN-KEYWORD,facebook,PROXY
-
-@ Kinopub
-DOMAIN-SUFFIX,kino.pub,PROXY
+.youtube.com
+.googlevideo.com
