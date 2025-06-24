@@ -17,6 +17,7 @@ yt3.ggpht.com
 # Instagram
 .facebook.com
 .instagram.com
+.cdninstagram.com
 .i.instagram.com
 .api.instagram.com
 .secure.instagram.com
