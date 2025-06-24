@@ -1,59 +1,10 @@
 # YouTube
-youtube.com
-www.youtube.com
-m.youtube.com
-embed.youtube.com
-youtu.be
-youtube-nocookie.com
-googlevideo.com
-ytimg.com
-s.ytimg.com
-ytimg.l.google.com
-youtubei.googleapis.com
-youtube.googleapis.com
-youtube-ui.l.google.com
-apis.google.com
-googleusercontent.com
-gstatic.com
+DOMAIN-KEYWORD,youtube,PROXY
+DOMAIN-KEYWORD,googlevideo,PROXY
 
 # Instagram
-instagram.com
-www.instagram.com
-m.instagram.com
-i.instagram.com
-api.instagram.com
-secure.instagram.com
-about.instagram.com
-admin.instagram.com
-community.instagram.com
-business.instagram.com
-developers.instagram.com
-help.instagram.com
-payments.instagram.com
-survey.instagram.com
-maps.instagram.com
-upload.instagram.com
-gateway.instagram.com
-edge-chat.instagram.com
-graph.instagram.com
-l.instagram.com
-platform.instagram.com
-instagram.c10r.facebook.com
-b.i.instagram.com
-b-fallback.i.instagram.com
-graph-fallback.instagram.com
-instagram-shv-01-ams2.fbcdn.net
-instagram-shv-01-hkg2.fbcdn.net
+DOMAIN-KEYWORD,instagram,PROXY
+DOMAIN-KEYWORD,facebook,PROXY
 
-# Kino.pub
-kino.pub
-www.kino.pub
-o.kino.pub
-mail.kino.pub
-
-meduza.io
-
-# Торрент трекеры
-rutor.info
-kinozal.tv
-rutracker.org
+@ Kinopub
+DOMAIN-SUFFIX,kino.pub,PROXY
