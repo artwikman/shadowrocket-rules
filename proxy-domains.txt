@@ -11,8 +11,11 @@
 .apis.google.com
 .googleusercontent.com
 .gstatic.com
+.app-analytics-services.com
+.ggpht.com
 
 # Instagram
+.facebook.com
 .instagram.com
 .i.instagram.com
 .api.instagram.com
