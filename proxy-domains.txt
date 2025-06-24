@@ -12,7 +12,7 @@
 .googleusercontent.com
 .gstatic.com
 .app-analytics-services.com
-.ggpht.com
+yt3.ggpht.com
 
 # Instagram
 .facebook.com
