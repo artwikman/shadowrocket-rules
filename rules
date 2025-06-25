@@ -1,0 +1,65 @@
+[General]# Shadowrocket: 2025-06-24 19:45:27
+# Обходная система. Если вы отключите эту опцию, это может вызвать
+# некоторые системные проблемы, такие как задержка push-уведомлений
+bypass-system = true
+
+# Включить поддержку IPv6. false означает, что не включено, true означает, что включено.
+ipv6 = false
+
+# Предпочитаю IPv6. Приоритет отдается запросу DNS-сервера IPv6 на предмет записей AAAA
+# и использованию записей AAAA в первую очередь; false означает, что не включено
+prefer-ipv6 = false
+
+# Ответ по частному IP. Если эта опция не включена, разрешение доменного имени возвращает
+# частный IP-адрес, а Shadowrocket посчитает доменное имя захваченным и принудительно использует прокси
+private-ip-answer = true
+
+# Доменное имя разрешается напрямую с использованием системного DNS; false означает, что не включено
+dns-direct-system = false
+
+# Использовать системный DNS после сбоя разрешения DNS; false означает, что не включено
+dns-fallback-system = false
+
+# Использовать прокси-сервер после сбоя разрешения доменного имени прямого подключения; false означает, что не включено
+dns-direct-fallback-proxy = true
+
+dns-server = https://dns.comss.one/dns-query
+
+fallback-dns-server = system
+
+hijack-dns = :53
+
+skip-proxy = 192.168.0.0/16,172.16.0.0/12,localhost,*.local,captive.apple.com
+
+tun-excluded-routes = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32,239.255.255.250/32
+
+
+tun-included-routes = 
+always-real-ip = time.*.com,ntp.*.com,*.cloudflareclient.com
+
+# Пакеты Ping автоматически отвечают
+icmp-auto-reply = true
+
+# Если политика REJECT не включена, по умолчанию она вступит в силу
+# только в режиме конфигурации. После включения политика может стать эффективной в других режимах глобальной маршрутизации.
+always-reject-url-rewrite = false
+
+# Если трафик UDP соответствует политике узла, которая не поддерживает
+# пересылку UDP в правилах, повторно выберите резервное поведение. Дополнительные варианты поведения включают DIRECT и REJECT. DIRECT означает прямую пересылку UDP-трафика, а REJECT означает отказ от пересылки UDP-трафика.
+udp-policy-not-supported-behaviour = REJECT
+
+[Rule]
+# Youtube
+DOMAIN-KEYWORD,youtube,PROXY
+DOMAIN-SUFFIX,googlevideo.com,PROXY
+DOMAIN-SUFFIX,ytimg.com,PROXY
+DOMAIN-SUFFIX,ggpht.com,PROXY
+DOMAIN-SUFFIX,youtu.be,PROXY
+
+# Instagram
+DOMAIN-KEYWORD,instagram,PROXY
+DOMAIN-KEYWORD,facebook,PROXY
+
+# Локалка
+
+IP-CIDR,10.99.99.0/24,PROXY
